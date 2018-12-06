@@ -1,1 +1,1 @@
-Este es el Mapa de Navidas
+Este es el Mapa de Navidad
