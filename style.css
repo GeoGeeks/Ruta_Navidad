@@ -1,0 +1,27 @@
+body,
+html {
+  background-color: #343338;
+  height: 100%;
+  width: 100%;
+}
+div{
+
+  height: 80%;
+}
+
+iframe
+{
+ display: block;
+ width: 99%;
+ height: 100%;
+ border:5px solid black;
+ overflow-y: auto;
+ overflow-x: hidden;
+ border-radius: 25px;
+}
+
+.snow {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
