@@ -23,7 +23,7 @@ require([
     scale: 210000
   });
 
-  view.when().then(function() {
+    view.when().then(function() {
     // Create a default graphic for when the application starts
     const graphic = {
       popupTemplate: {
