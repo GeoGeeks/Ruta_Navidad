@@ -12,6 +12,6 @@ body,
   font-family: "Avenir Next", "Helvetica Neue", sans-serif;
   line-height: 1.55rem;
   font-feature-settings: "liga"1, "calt"0;
-  background: #fff;
+  background: #00000 !important;
   padding: 1em;
 }
