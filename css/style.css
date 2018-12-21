@@ -14,7 +14,7 @@ iframe
   height: 100%;
   width: 100%;
   position: relative;
-  background: url("http://craftedbygc.com/images/xmas-large.jpg") no-repeat 0 0/cover;
+  background: black;
 }
 .xmas .to {
   position: absolute;
@@ -34,13 +34,7 @@ iframe
 .xmas .to .to-name {
   font-size: 24px;
 }
-.xmas .to .client-logo {
-  display: block;
-  width: auto;
-  max-height: 100px;
-  max-width: 250px;
-  margin: 10px auto 0;
-}
+
 .xmas .xmas-message {
   position: absolute;
   left: 34%;
@@ -51,36 +45,5 @@ iframe
   width: calc(70% - 6rem);
   height: calc(112% - 12rem);
   margin: 0 auto;
-  background: url(http://craftedbygc.com/images/merryxmas.png) no-repeat 50% 50%/contain;
+  background: #00000 no-repeat 50% 50%/contain;
 }
-.xmas .from {
-  position: absolute;
-  bottom: 40px;
-  width: 100%;
-  z-index: 3;
-  text-align: center;
-}
-.xmas .from div {
-  font-family: "quimby-mayoral", sans-serif;
-  color: #ffffff;
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-.xmas .from .gc-link {
-  display: inline-block;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 24px;
-  color: #ffffff;
-  transition: 400ms ease;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.xmas .from .gc-link:hover {
-  color: #1cff94;
-}
-.xmas #xmas {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 0;
-  }

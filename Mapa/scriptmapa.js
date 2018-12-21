@@ -25,7 +25,8 @@ require([
     container: "viewDiv",
     map: map,
     center: [-74.1, 4.65],
-    scale: 210000
+    scale: 210000,
+    rotation:270
   });
 
     view.when().then(function() {
