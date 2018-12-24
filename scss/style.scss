@@ -10,7 +10,7 @@ $color3: #1d2123;
 	position: relative;
 	background: url('	http://geoapps.esri.co/Recursos/RutaNavidad/Background.jpg') no-repeat 0 0 / cover;
 
-	.to {
+	.titulo {
 		position: absolute;
 		top: 30px;
 		width: 100%;
@@ -39,7 +39,7 @@ $color3: #1d2123;
 	}
 
 	// The graphic
-	.xmas-message {
+	.mapa {
 		position: absolute;
 		left: 50%;
 		top: 50%;
