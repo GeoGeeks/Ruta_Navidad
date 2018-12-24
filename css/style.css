@@ -16,14 +16,14 @@ iframe
   position: relative;
   background: black;
 }
-.xmas .to {
+.xmas .titulo {
   position: absolute;
   top: 30px;
   width: 100%;
   text-align: center;
   z-index: 3;
 }
-.xmas .to div {
+.xmas .titulo div {
   font-family: "quimby-mayoral", sans-serif;
   color: #ffffff;
   font-size: 50px;
@@ -31,11 +31,11 @@ iframe
   margin-bottom: 5px;
   z-index: 1;
 }
-.xmas .to .to-name {
+.xmas .titulo .to-name {
   font-size: 24px;
 }
 
-.xmas .xmas-message {
+.xmas .mapa {
   position: absolute;
   left: 34%;
   top: 57%;
@@ -47,3 +47,29 @@ iframe
   margin: 0 auto;
   background: #00000 no-repeat 50% 50%/contain;
 }
+
+.xmas .info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: calc(50% - 6rem);
+  height: calc(100% - 12rem);
+  margin: 0 auto;
+  background: #00000 no-repeat 50% 50%/contain;
+}
+
+
+.xmas .info2 {
+  position: absolute;
+  left: 34%;
+  top: 57%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: calc(100% - 6rem);
+  height: calc(112% - 12rem);
+  margin: 0 auto;
+  background: #00000 no-repeat 50% 50%/contain;
