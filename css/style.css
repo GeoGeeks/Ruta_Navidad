@@ -97,6 +97,7 @@ iframe
 }
 
 .xmas .mapa {
+<<<<<<< HEAD
   position: absolute;
   left:50px ;
   top:150px ;
@@ -108,6 +109,8 @@ iframe
 }
 
 .xmas .info {
+=======
+>>>>>>> c233deb12ac74acfea6dc7914c867116ed70e284
   position: absolute;
   left:1150px ;
   top:150px ;
@@ -118,6 +121,7 @@ iframe
   background: #00000 no-repeat 50% 50%/contain;
 }
 
+<<<<<<< HEAD
 .xmas .info2 {
   position: absolute;
   left:1150px ;
@@ -128,3 +132,30 @@ iframe
   margin: 0 auto;
   background: #00000 no-repeat 50% 50%/contain;
   }
+=======
+.xmas .info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: calc(50% - 6rem);
+  height: calc(100% - 12rem);
+  margin: 0 auto;
+  background: #00000 no-repeat 50% 50%/contain;
+}
+
+
+.xmas .info2 {
+  position: absolute;
+  left: 34%;
+  top: 57%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: calc(100% - 6rem);
+  height: calc(112% - 12rem);
+  margin: 0 auto;
+  background: #00000 no-repeat 50% 50%/contain;
+>>>>>>> c233deb12ac74acfea6dc7914c867116ed70e284
